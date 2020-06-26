@@ -431,21 +431,6 @@ class App extends Component {
     });
   }
 
-    function() {
-      var buttonStyle;
-      if (this.state.hover) {
-        buttonStyle = {backgroundColor: 'red'}
-      } else {
-        buttonStyle = {backgroundColor: 'blue'}
-      }
-      return(
-        <div>
-          <button style={buttonStyle} onMouseEnter={this.toggleHover} onMouseLeave={this.toggleHover}>button</button>
-        </div>
-      )
-    }
-
-
   render() {
     return (
       <div className="App">

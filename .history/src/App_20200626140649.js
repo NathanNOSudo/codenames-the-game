@@ -430,8 +430,14 @@ class App extends Component {
       turn: nextTurn
     });
   }
-
-    function() {
+  var Button = React.createClass({
+    getInitialState: function(){
+      return {hover: false}
+    },
+    toggleHover: function(){
+      this.setState({hover: !this.state.hover})
+    },
+    render: function() {
       var buttonStyle;
       if (this.state.hover) {
         buttonStyle = {backgroundColor: 'red'}
@@ -440,7 +446,7 @@ class App extends Component {
       }
       return(
         <div>
-          <button style={buttonStyle} onMouseEnter={this.toggleHover} onMouseLeave={this.toggleHover}>button</button>
+          <a style={buttonStyle} onMouseEnter={this.toggleHover} onMouseLeave={this.toggleHover}>button</a>
         </div>
       )
     }
