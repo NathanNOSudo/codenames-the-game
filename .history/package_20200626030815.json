@@ -13,7 +13,7 @@
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
   },
-  "description": "I want to be cool and also get to practice what I learned in class. Plus Austin said its cool.",
+  "description": "I love the play board games and Codenames is one of my favorites. When I first started programming, I made a console version of the game in Java to practice what I learned in class.",
   "main": "index.js",
   "devDependencies": {},
   "repository": {

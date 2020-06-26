@@ -1,7 +1,7 @@
 const server =  require('./app.js');
 
 server.listen(8080, function(){
-    console.log('Yo word up, word server is listening on port 8080')
+    console.log('word server listening on port 8080')
 });
 
 
