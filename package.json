@@ -1,0 +1,37 @@
+{
+  "name": "codenames.react.game",
+  "version": "7.1.9",
+  "private": true,
+  "dependencies": {
+    "react": "^16.0.0",
+    "react-dom": "^16.0.0",
+    "react-scripts": "1.0.14"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "description": "I love the play board games and Codenames is one of my favorites. When I first started programming, I made a console version of the game in Java to practice what I learned in class.",
+  "main": "index.js",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NathanNOSudo/codenames-the-game.git"
+  },
+  "keywords": [
+    "codemaster",
+    "codenames",
+    "react",
+    "games",
+    "austin",
+    "cool"
+  ],
+  "author": "Nathan Orris",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NathanNOSudo/codenames-the-game/issues"
+  },
+  "homepage": "https://github.com/NathanNOSudo/codenames-the-game#readme"
+}
